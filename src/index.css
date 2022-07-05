@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.todo-container {
+  width: 65%;
+  margin: 100px auto;
+  background-color: #f5f0f0;
+  padding: 40px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #fff;
+  width: 95%;
+  height: 50px;
+  border-bottom: 2px solid #f0ebeb;
+}
+
+.todo-add input {
+  width: 95%;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  border-bottom: 2px solid #f0ebeb;
+}
+
+.todo-dynamic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #fff;
+  width: 95%;
+  height: 50px;
+  border-bottom: 2px solid #f0ebeb;
+}
+
+.todo-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.todo-input p {
+  margin-left: 10px;
+}
+
+.fa {
+  color: #e3dfde;
+}
+
+.clear-task {
+  display: block;
+  margin: 2px auto;
+  border: none;
+  width: 103.5%;
+  height: 50px;
+  border-bottom: 4px solid #e7e1e1;
+  font-size: 16px;
+  color: #6d6c6c;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.pp {
+  margin: 0;
+}
