@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  background-color: #fff;
+  background-color: rgb(105, 19, 204);
   width: 95%;
   height: 50px;
   border-bottom: 2px solid #f0ebeb;
@@ -35,9 +35,6 @@ body {
 }
 
 .todo-dynamic {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center; */
   justify-content: space-between;
   padding: 0 20px;
   background-color: #fff;

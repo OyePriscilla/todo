@@ -85,6 +85,7 @@ const editList = () => {
       taskEdit.toggleAttribute('contentEditable');
       taskEdit.focus();
       threeDotBtn.parentElement.parentElement.classList.toggle('checkedColor');
+      localStorage.setItem('todo-list', JSON.stringify(todos));
     });
   });
 };
