@@ -11,7 +11,7 @@ body {
   width: 65%;
   margin: 100px auto;
   background-color: #f5f0f0;
-  padding: 40px;
+  padding: 40px 60px 40px 40px;
 }
 
 .headline {
@@ -35,9 +35,9 @@ body {
 }
 
 .todo-dynamic {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
   justify-content: space-between;
   padding: 0 20px;
   background-color: #fff;
@@ -46,18 +46,31 @@ body {
   border-bottom: 2px solid #f0ebeb;
 }
 
+.settings {
+  float: right;
+  position: relative;
+  top: -30px;
+  z-index: 5;
+}
+
 .todo-input {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.todo-input p {
+.todo-text {
   margin-left: 10px;
+  height: 43px;
+  width: 250px;
+  border: none;
+  display: flex;
+  align-items: center;
 }
 
 .fa {
-  color: #e3dfde;
+  color: rgb(85, 82, 82);
+  font-size: 32px;
 }
 
 .clear-task {
@@ -82,4 +95,24 @@ input:focus {
 
 .pp {
   margin: 0;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.fa-trash {
+  display: none;
+}
+
+.edit {
+  display: none;
+}
+
+.trash {
+  display: block;
+}
+
+.checkedColor {
+  background-color: rgb(245, 229, 179);
 }
