@@ -141,6 +141,7 @@ clearTask.addEventListener('click', () => {
     if (todo.isCompleted) {
       removeCompletedFromUI();
       removeCompletedFromStorage();
+      window.location.reload();
     }
   });
 });
