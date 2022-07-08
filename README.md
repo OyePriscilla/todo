@@ -20,8 +20,28 @@ Clone this repository on to your local PC
 * Clone the repository with the command: git clone (copied link); like so: https://github.com/OyePriscilla/ToDo-List
 * After the clone, type in the command cd ToDo-List to access the directory on the terminal.
 
-## Live Demo
-Access the online version of this project through this link [link](https://oyepriscilla.github.io/Todo-List/)
+- Once the files are on your machine, open the _To-do-list_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
+
+## 🛠 Installation & Set Up
+
+1. Install Node Modules
+
+   ```sh
+   npm install
+
+2. Start the development server
+
+   ```sh
+   npm start
+
+3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+## 🚀 Building and Running for Production
+
+1. Generate a full static production build
+
+   ```sh
+   npm run build
 
 ## Author
 👤 **Author**
