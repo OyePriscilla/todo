@@ -36,6 +36,8 @@ Clone this repository on to your local PC
 
 3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
+## Live Deployment [Click here](https://oyepriscilla.github.io/todo/)
+
 ## 🚀 Building and Running for Production
 
 1. Generate a full static production build
