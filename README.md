@@ -1,5 +1,5 @@
 # Todo List Project
-This website was built to learn how to use webpack and also solidify my ES6 and plain Javascript knowledge.
+This website was built to learn how to use webpack and also solidify my ES6 and plain Javascript knowledge. Todo list can be added, deleted and edited.
 
 ## Built With
 * HTML
