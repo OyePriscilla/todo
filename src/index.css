@@ -8,9 +8,9 @@ body {
 }
 
 .todo-container {
-  width: 65%;
+  width: 50%;
   margin: 100px auto;
-  background-color: #f5f0f0;
+  background-color: #7959ec;
   padding: 40px 60px 40px 40px;
 }
 
@@ -24,6 +24,9 @@ body {
   width: 95%;
   height: 50px;
   border-bottom: 2px solid #f0ebeb;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .todo-add input {
@@ -32,6 +35,8 @@ body {
   padding: 0 20px;
   border: none;
   border-bottom: 2px solid #f0ebeb;
+  font-size: 22px;
+  color: #330ce0;
 }
 
 .todo-dynamic {
@@ -59,31 +64,41 @@ body {
 .todo-text {
   margin-left: 10px;
   height: 43px;
-  width: 250px;
+  width: 90%;
   border: none;
   display: flex;
   align-items: center;
+  font-size: 22px;
+  outline: none;
+  color: #330ce0;
 }
 
 .fa {
-  color: rgb(85, 82, 82);
+  color: #330ce0;
   font-size: 32px;
+}
+
+.fa-refresh {
+  color: #fff;
 }
 
 .clear-task {
   display: block;
   margin: 2px auto;
   border: none;
-  width: 103.5%;
+  width: 100%;
   height: 50px;
   border-bottom: 4px solid #e7e1e1;
-  font-size: 16px;
-  color: #6d6c6c;
+  font-size: 20px;
+  color: #330ce0;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 ::placeholder {
   font-style: italic;
   font-size: 16px;
+  color: #330ce0;
 }
 
 input:focus {
@@ -98,10 +113,7 @@ input:focus {
   text-decoration: line-through;
 }
 
-.fa-trash {
-  display: none;
-}
-
+.fa-trash,
 .edit {
   display: none;
 }
